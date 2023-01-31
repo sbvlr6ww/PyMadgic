@@ -1,0 +1,130 @@
+
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner{
+    width: 90vw;
+    margin: auto;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.4vw;
+    padding-bottom: 0.4vw;
+}
+
+.name-of-page-with-log{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li{
+    background-color:#1D1D21;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: 8px;
+}
+
+.cover-of-page{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cover-infopart{
+    width:39vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(-45deg, #14101D, #43404A);
+    border-radius: 30px;
+    padding: 3vw 7vw 1vw 3vw;
+    justify-content: space-between;
+}
+
+.bracket{
+    color: aqua;
+}
+.general-information{
+    display: flex;
+ justify-content: space-between;
+}
+.generelal-info-one{
+    display: flex;
+ border: 2px solid aliceblue;
+ padding: 5px;
+ border-radius: 30px;
+ font-size: 18px;
+
+}
+
+.main-covertxt{
+    font-size: 60px;
+    font-weight: bold;
+}
+.blue-txt{
+    color: aqua;
+}
+.second-cover-txt{
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.info-record{
+    padding: 1vw 1vw 1vw 1vw;
+    width: 40vw;
+}
+.info-record,.places{
+    display: flex;
+    justify-content: space-between;
+}
+.blue-bracket{
+    color: aqua;
+    padding-right: 10px;
+}
+
+.decore-button{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    padding: 1.5vw 2vw;
+    background-color: aqua;
+    border: 0;
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+.cover-personalitypart{
+    color: black;
+    padding: 5vw 5vw;
+    font-size: 25px;
+    background-image: url(photo/portrait-of-corporate-woman-holding-clipboard-at-work-standing-in-formal-outfit-over-white-background.jpg);
+    width: 30vw;
+    height: 47vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.person-name{
+    padding-bottom: 10px;
+}
